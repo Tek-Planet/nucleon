@@ -1,0 +1,126 @@
+{
+  "main": {
+    "name": "Nucleon Projects",
+    "occupation": "Head Instructor @CleverProgrammer",
+    "description": "Full Stack Developer and Lead Instructor at Clever Programmer.",
+    "image": "Naz.jpg",
+    "bio": "Nucleon Projects Limited is a seasoned indigenous company incorporated in Nigeria as a Limited Liability Company, with Corporate Affairs Commission Registration Number: RC 1713080. Our main business is to proffer Engineering Solutions to Oil Servicing Companies, Industries and Organizations. These solutions range from Procurement, Design, Drafting, Work Scoping, Cost Development, Project Planning, Fabrication, Refurbishment of Structures, and Warehouse Erection to Assembly of Porta Cabins.",
+    "team": "We have a team of Trained and Certified Engineers for Process Design, Structural Design, Architectural Development and Project Management. Our Engineers are skilled at the use of state of art facilities, modern technology and design tools in providing solutions and services to our Client. We have an equipped project management station and workshop facility to meet the Design and Fabrication needs of our Clients, and we have ensured continuous improvement on all existing asset and partnership with sound business associates who provide us edge in all service delivery.",
+    "vision": "To ensure that minute and large details that constitute quality delivery are treated to customer and client satisfaction, international standards and in-line with best practices.",
+    "value": "We strive to build long term relationship with our clients based on healthy culture and working philosophies. Ensuring total commitment to customer's satisfaction and JTI delivery of all services",
+    "mission": "To provide excellent start and completion to every initiated project, maintain quality delivery and meet industry standard in the sector.",
+    "contactmessage": "Get in touch with me to receive further details, get coached or anything else.",
+    "email": "naz@cleverprogrammer.com",
+    "phone": "+1 800 NAZ DUMA",
+    "address": {
+      "street": "123 Fake Street",
+      "city": "Beverly Hills",
+      "state": "CA",
+      "zip": "90035"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload": "http://timbakerdev.com",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/nazariy1995",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/nazariydumanskyy/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/nazdumanskyy/",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/Nazariy995",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "education": [
+      {
+        "school": "University of Michigan - Dearborn",
+        "degree": "Bachelor's Degree, Computer Science",
+        "graduated": "January 2017",
+        "description": "Graduated with Distinction"
+      }
+    ],
+    "work": [
+      {
+        "company": "Clever Programmer",
+        "title": "JavaScript/Python Specialist",
+        "years": "May 2019 - Present",
+        "description": "Transforming the lives of people by teaching them how to become successful developers no matter if they are a beginner or not!"
+      },
+      {
+        "company": "NazaWEb",
+        "title": "Founder / Developer",
+        "years": "Jan 2019 - Present",
+        "description": "Helping businesses showing their best selves to clients."
+      }
+    ],
+    "skills": [
+      {
+        "name": "Procurement",
+        "description": "We source, procure and supply steel members given our sound knowledge in material science and material strength",
+        "level": "100%"
+      },
+      {
+        "name": "Design",
+        "description": "We perform Process Design, Structural Design, and Architectural Development etc", 
+        "level": "95%"
+      },
+      {
+        "name": "Drafting",
+        "description": "We provide our Clients the advantage of proper engineering drawings and plan Construction: Fabrication of Steel Structures, Fabrication of Piping Spools, Fabrication and Erection of Warehouses, Erection of Porta Cabins etc", 
+        "level": "75%"
+      },
+      {
+        "name": "Construction",
+        "description":"Fabrication of Steel Structures, Fabrication of Piping Spools, Fabrication and Erection of Warehouses, Erection of Porta Cabins etc",
+        "level": "100%"
+      },
+      {
+        "name": "Project Planning",
+        "description":"We provide Work Scope and BEME, BOQ, project schedules, execution budgets to ensure our client gets maximum satisfaction for all investments.",
+        "level": "80%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Zoom Clone with NodeJS",
+        "category": "Zoom Clone built with NodeJS",
+        "image": "zoom.jpg",
+        "url": "https://www.youtube.com/watch?v=ZVznzY7EjuY"
+      },
+      {
+        "title": "Robinhood Clone",
+        "category": "Robinhood Clone built with ReactJS",
+        "image": "robinhood.jpg",
+        "url": "https://www.youtube.com/watch?v=g8yGxDMyGiE"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+        "user": "Kareem Abdul Jabbar"
+      },
+      {
+        "text": "That Naz must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user": "Steve Wozniak... impersonator"
+      }
+    ]
+  }
+}
