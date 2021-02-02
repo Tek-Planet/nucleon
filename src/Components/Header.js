@@ -4,6 +4,7 @@ class Header extends Component {
   render() {
 
     if(this.props.data){
+      var profilepic= "images/"+this.props.data.image;
       var name = this.props.data.name;
       var networks= this.props.data.social.map(function(network){
         return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
@@ -11,7 +12,7 @@ class Header extends Component {
     }
 
     return (
-      <header id="home">
+      <header id="header">
 
       <nav id="nav-wrap">
 
@@ -19,19 +20,21 @@ class Header extends Component {
 	      <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
 
          <ul id="nav" className="nav">
-            <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
+            <li className="current"><a className="smoothscroll" href="#header">Home</a></li>
             <li><a className="smoothscroll" href="#about">About</a></li>
-	         <li><a className="smoothscroll" href="#resume">Services</a></li>
-            <li><a className="smoothscroll" href="#portfolio">Works</a></li>
-            <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
-            <li><a className="smoothscroll" href="#contact">Contact</a></li>
+	         <li><a className="smoothscroll" href="#services">Services</a></li>
+            <li><a className="smoothscroll" href="#portfolio">Projects</a></li>
+            <li><a className="smoothscroll" href="#gallery">Gallery</a></li>
+            <li><a className="smoothscroll" href="#contact">Contact us</a></li>
+           
          </ul>
 
       </nav>
 
       <div className="row banner">
          <div className="banner-text">
-            <h1 className="responsive-headline">{name}</h1>
+         <img className="profile-pic"  src={profilepic} alt="Tim Baker Profile Pic" />
+            {/* <h1 className="responsive-headline">{name}</h1> */}
             <hr />
             <ul className="social">
                {networks}

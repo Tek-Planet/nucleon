@@ -25,7 +25,7 @@ class About extends Component {
       <div className="row">
       
          <div className="columns main-col">
-            <h2>About Us</h2>
+            <h2 align="center">About Us</h2>
 
             <p>{bio} </p>
 
@@ -34,17 +34,17 @@ class About extends Component {
             
             <div className="row">
                <div className="four columns">
-                  <h2>Vision</h2>
+                  <h2 align="center">Vision</h2>
                   <p>{vision} </p>
                </div>
 
                <div className="four columns">
-                  <h2>Mission</h2>
+                  <h2 align="center">Mission</h2>
                   <p>{mission} </p>
                </div>
 
                <div className="four columns">
-                  <h2>Value</h2>
+                  <h2 align="center">Value</h2>
                   <p>{value} </p>
                </div>
               

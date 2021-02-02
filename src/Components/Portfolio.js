@@ -1,45 +1,84 @@
-import React, { Component } from 'react';
+import React from 'react'
+import { makeStyles } from '@material-ui/core/styles';
+import Table from '@material-ui/core/Table';
+import TableBody from '@material-ui/core/TableBody';
+import TableCell from '@material-ui/core/TableCell';
+import TableContainer from '@material-ui/core/TableContainer';
+import TableHead from '@material-ui/core/TableHead';
+import TableRow from '@material-ui/core/TableRow';
+import Paper from '@material-ui/core/Paper';
 
-class Portfolio extends Component {
-  render() {
+const useStyles = makeStyles({
+  table: {
+   
+  },
+});
 
-    if(this.props.data){
-      var projects = this.props.data.projects.map(function(projects){
-        var projectImage = 'images/portfolio/'+projects.image;
-        return <div key={projects.title} className="columns portfolio-item">
-           <div className="item-wrap">
-            <a href={projects.url} title={projects.title}>
-               <img alt={projects.title} src={projectImage} />
-               <div className="overlay">
-                  <div className="portfolio-item-meta">
-                 <h5>{projects.title}</h5>
-                     <p>{projects.category}</p>
-                  </div>
-                </div>
-              <div className="link-icon"><i className="fa fa-link"></i></div>
-            </a>
-          </div>
-        </div>
-      })
-    }
+function createData(id, job, client, status ) {
+  return { id, job, client, status};
+}
 
-    return (
-      <section id="portfolio">
+const rows = [
+
+  
+
+  createData(1, 'Erection of 100,000  gallon Braithwaite Water Tank, Bayelsa', 'JOPRESTEP WATER SOLUTION', 'Completed'),
+  createData(2, 'Erection of Security guard houses for NLNG', 'CANDIX ENGINEERING NIG LTD', 'Completed'),
+  createData(3, 'Erection of 75,000 gallon Braithwaite Water Tank, Arochukwu', 'JOPRESTEP WATER SOLUTION', 'Completed'),
+  createData(4, 'Replacement of sections of 4” lines and Repair of Damaged Braval Water line', 'LIBROD ENERGY SERVICES', 'Completed'),
+  createData(5, 'Design Development of Methanol Plant', 'IRON OX METAL WORKS LTD', 'Completed'),
+  createData(6, 'Fabrication of tools box, skids and shaker platform', 'LIBROD ENERGY SERVICES', 'Completed'),
+  createData(7, 'Supply of Scaffold Tubes and Accessories', 'LIBROD ENERGY SERVICES', 'Completed'),
+
+
+];
+
+
+
+const Porfolio = () => {
+  const classes = useStyles();
+
+  return (
+    <section id="portfolio">
 
       <div className="row">
 
          <div className="twelve columns collapsed">
 
-            <h1>Check Out Some of My Works.</h1>
+            <h1>JOBS EXECUTED</h1>
 
-            <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-                {projects}
+            <div>
+            <TableContainer component={Paper}>
+      <Table className={classes.table} size="small" aria-label="a dense table">
+        <TableHead>
+          <TableRow>
+            <TableCell className='tableHeader'>S/N</TableCell>
+            <TableCell className='tableHeader' align="center">JOBS</TableCell>
+            <TableCell className='tableHeader' align="center">CLIENT</TableCell>
+            <TableCell  className='tableHeader' align="center">STATUS</TableCell>
+            
+          </TableRow>
+        </TableHead>
+        <TableBody>
+          {rows.map((row) => (
+            <TableRow key={row.id}>
+              <TableCell className='tableText' component="th" scope="row">
+                {row.id}
+              </TableCell>
+              <TableCell className='tableText' align="center">{row.job}</TableCell>
+              <TableCell className='tableText' align="center">{row.client}</TableCell>
+              <TableCell className='tableText' align="center">{row.status}</TableCell>
+           
+            </TableRow>
+          ))}
+        </TableBody>
+      </Table>
+    </TableContainer>
             </div>
           </div>
       </div>
    </section>
-    );
-  }
+  )
 }
 
-export default Portfolio;
+export default Porfolio

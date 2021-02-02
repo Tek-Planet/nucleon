@@ -3,20 +3,21 @@
     "name": "Nucleon Projects",
     "occupation": "Head Instructor @CleverProgrammer",
     "description": "Full Stack Developer and Lead Instructor at Clever Programmer.",
-    "image": "Naz.jpg",
+    "image": "npl.png",
     "bio": "Nucleon Projects Limited is a seasoned indigenous company incorporated in Nigeria as a Limited Liability Company, with Corporate Affairs Commission Registration Number: RC 1713080. Our main business is to proffer Engineering Solutions to Oil Servicing Companies, Industries and Organizations. These solutions range from Procurement, Design, Drafting, Work Scoping, Cost Development, Project Planning, Fabrication, Refurbishment of Structures, and Warehouse Erection to Assembly of Porta Cabins.",
     "team": "We have a team of Trained and Certified Engineers for Process Design, Structural Design, Architectural Development and Project Management. Our Engineers are skilled at the use of state of art facilities, modern technology and design tools in providing solutions and services to our Client. We have an equipped project management station and workshop facility to meet the Design and Fabrication needs of our Clients, and we have ensured continuous improvement on all existing asset and partnership with sound business associates who provide us edge in all service delivery.",
     "vision": "To ensure that minute and large details that constitute quality delivery are treated to customer and client satisfaction, international standards and in-line with best practices.",
     "value": "We strive to build long term relationship with our clients based on healthy culture and working philosophies. Ensuring total commitment to customer's satisfaction and JTI delivery of all services",
     "mission": "To provide excellent start and completion to every initiated project, maintain quality delivery and meet industry standard in the sector.",
     "contactmessage": "Get in touch with me to receive further details, get coached or anything else.",
-    "email": "naz@cleverprogrammer.com",
-    "phone": "+1 800 NAZ DUMA",
+    "email": "info@nucleonprojects.com",
+    "phone": "+234 701 421 6165, +234 803 264 8450",
     "address": {
-      "street": "123 Fake Street",
-      "city": "Beverly Hills",
-      "state": "CA",
-      "zip": "90035"
+
+      "street": "Head Office: No. 10, Eze Gbaka Gbaka Avenue, Off Elenlenwo Link Road, Woji, Port Harcourt",
+      "city": "",
+      "state": "",
+      "zip": ""
     },
     "website": "http://www.timbakerdev.com",
     "resumedownload": "http://timbakerdev.com",
@@ -93,22 +94,47 @@
         "description":"We provide Work Scope and BEME, BOQ, project schedules, execution budgets to ensure our client gets maximum satisfaction for all investments.",
         "level": "80%"
       }
+    ],
+    "partners": [
+      {
+        "name": "Ÿ Wirelinks Services Nigeria Limited" 
+      }
+    ],
+    "clients": [
+      {
+        "name": "CANDIX ENGINEERING NIG LTD" 
+      },
+      {
+        "name": "LIBROD ENERGY SERVICES" 
+      },
+      {
+        "name": "IRON OX METAL WORKS LTD" 
+      }
     ]
   },
   "portfolio": {
-    "projects": [
+    "gallery": [
       {
-        "title": "Zoom Clone with NodeJS",
-        "category": "Zoom Clone built with NodeJS",
-        "image": "zoom.jpg",
-        "url": "https://www.youtube.com/watch?v=ZVznzY7EjuY"
+        "title": "Piping works for Librod Energy Services",
+        "image": "Piping1.png"
       },
       {
-        "title": "Robinhood Clone",
-        "category": "Robinhood Clone built with ReactJS",
-        "image": "robinhood.jpg",
-        "url": "https://www.youtube.com/watch?v=g8yGxDMyGiE"
+        "title": "Workshop Development for Candix Engineering Nigeria Limited",   
+        "image": "Workshop1.png"
+        
+      },
+     
+      {
+        "title": "Our Fabrication Yard",   
+        "image": "yard1.png"
+        
+      },
+      {
+        "title": "Complete Fabrication and Installation of 4” Sectional Line Replacement for Librod Energy Services",   
+        "image": "fab1.png"
+        
       }
+     
     ]
   },
   "testimonials": {
